@@ -6,12 +6,11 @@ body {
     font-weight: bolder;
     font-size: 20px;
     text-align: center;
-    padding: 5px 0px;
+    padding-top: 10px;
 }
 .mainSection {
     display: flex;
     flex-direction: row;
-    background-color: blanchedalmond;
     justify-content: space-between;
 }
 
@@ -21,6 +20,9 @@ body {
     padding:0px 40px;
 }
 
+a {
+    text-decoration: none;
+}
 .hamburgerList {
     list-style: none;
     padding: 0px;
