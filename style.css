@@ -1,18 +1,26 @@
 body {
-    margin:0px;
+    margin: 0px;
 }
-.mainSection {
+
+
+.site-header {
+    display: grid;
+    grid-template-columns: [line0] 1fr [line1] 1fr;
+    border-bottom: 2px solid grey;
+    font-size: 26px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.site-title {
+    padding: 40px 0px 20px 40px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-links {
     display: flex;
     flex-direction: row;
-    background-color: blanchedalmond;
-    justify-content: space-between;
 }
 
 
-.interactiveMenu {
-    flex-basis: auto;
-}
 
-.informationMenu {
-    flex-grow: 6;
-}
